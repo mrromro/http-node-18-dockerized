@@ -1,8 +1,8 @@
 FROM node:18-alpine
 
 WORKDIR /app
-COPY index.js .
+COPY index.mjs .
 
 EXPOSE 3000
 
-CMD ["node", "index.js"]
+CMD ["node", "index.mjs"]
